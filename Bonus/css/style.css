@@ -1,0 +1,185 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.flex{
+    display: flex;
+}
+
+
+/* inizio stili header */
+.container_navigation_bar{
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 19px -4px;;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 500;
+}
+
+i{
+    color: white;
+}
+
+
+.header_orange > li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#logo{
+    width: 120px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* fine stili header */
+
+
+
+/* inizio stili main */
+
+
+/* .fa-heart{
+    color: black;
+    font-size: 18px;
+} */
+
+.col:hover .heart{
+    display: block;
+    color: red;
+}
+
+
+.alt{
+    display: none;
+}
+
+.imgs:hover .main {
+    display: none;
+}
+
+.imgs:hover .alt {
+    display: inline-block;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.col{
+    width: calc((60% / 3) - 10px);
+    margin: 0 5px;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    
+    /* debug */
+    /* background-color: aqua;
+    min-height: 100px; */
+    /* border: 1px solid white; */
+}
+
+img{
+    width: 100%;
+}
+
+
+.label_red{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.label_green{
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    color: white;
+    background-color: green;
+    font-size: 14px;
+    padding: 3px;
+}
+
+
+.label_green_six{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    color: white;
+    background-color: green;
+    font-size: 14px;
+    padding: 3px;
+}
+
+
+.heart{
+    width: 24px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.euro_red{
+    color: red;
+}
+
+.cancel{
+    text-decoration: line-through;
+}
+
+
+/* fine stili main */
+
+
+
+
+
+/* Stili footer */
+
+h4{
+    color: white;
+    margin-bottom: 5px;
+}
+
+h5{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.container_navigation_bar_footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_black > li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_black{
+    font-size: 14px;
+}
+
